@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: "awsfaculty/projectfusionbatch198999:26"
+        image: "awsfaculty/projectfusionbatch198999:${IMAGE_TAG}"
         ports:
           - containerPort: 5000
 ---
