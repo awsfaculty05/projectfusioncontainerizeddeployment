@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: node-app 
-        image: awsfaculty/projectfusionbatch198999:latest 
+        image: awsfaculty/projectfusionbatch198999:${BUILD_NUMBER}
         ports:
         - containerPort: 3000 
